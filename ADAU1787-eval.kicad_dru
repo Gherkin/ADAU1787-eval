@@ -1,0 +1,13 @@
+(version 1)
+
+(rule LCSC 
+	(constraint clearance (min 0.127mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+(rule LCSC 
+	(constraint clearance (min 0.127mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Track'"))
+
+(rule LCSC 
+	(constraint clearance (min 0.127mm))
+	(condition "A.Type == 'Via' && B.Type == 'Track'"))

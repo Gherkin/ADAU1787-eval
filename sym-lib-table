@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ADAU1787")(type "KiCad")(uri "${KIPRJMOD}/ADAU1787/2023-09-06_18-25-58.kicad_sym")(options "")(descr ""))
+)
